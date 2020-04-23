@@ -1,0 +1,14 @@
+package com.jmc.springsecurity;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	
+	
+	@RequestMapping("/home")
+	public String goHome() {
+		return "index";
+	}
+
+}
